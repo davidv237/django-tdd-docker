@@ -7,6 +7,7 @@ def test_hello_world():
     assert "hello_world" == "hello_world"
     assert "foo" != "bar"
 
+
 def test_ping(client):
     # Given
     # client
